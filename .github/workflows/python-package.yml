@@ -20,6 +20,6 @@ jobs:
       - name: Install requirements
         run: pip install -r requirements.txt
       - name: Run Scraper
-        run: python scraper.py
-      - name: Share output
+        run: python crowler.py
+
       
