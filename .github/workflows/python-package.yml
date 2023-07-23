@@ -40,4 +40,4 @@ jobs:
         pytest
     - name: Test server
       run: | 
-        pythom -m http.server
+        python -m http.server
